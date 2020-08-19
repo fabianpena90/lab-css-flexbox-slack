@@ -5,3 +5,156 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+  background: #f4f3f4;
+}
+
+/* All heading tags */
+.l-heading {
+  color: #2c303f;
+}
+
+p {
+  color: #5b5e6d;
+}
+
+/* Header */
+header {
+  display: flex;
+  padding-top: 100px;
+}
+
+header .showcase {
+  display: flex;
+  flex-direction: column;
+}
+
+header .showcase h1 {
+  font-size: 80px;
+}
+
+header .showcase p {
+  font-size: 22px;
+}
+
+#using-slack {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+#using-slack a {
+  text-decoration: underline;
+}
+
+.get-started {
+  background: #192592;
+}
+
+.main-container {
+  padding: 100px;
+}
+
+/* Main content */
+.main-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.jumbotron .showcase {
+  text-align: center;
+
+}
+.main-content .showcase h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+.btn-started {
+  padding: 20px 40px;
+  background-color: #fff;
+  border: 1px solid #192592;
+  color: #192592;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* Second Content */
+.second-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.second-content p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.second-content button {
+  padding: 20px 40px;
+  background-color: #192592;
+  border-radius: 5px solid;
+  color: #fff;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.sign-in {
+  font-size: 20px;
+  padding: 40px;
+  margin-top: 0;
+
+}
+
+.sign-in a {
+  text-decoration: underline;
+}
+
+/* Footer */
+.information {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.information img {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.information ul li {
+  line-height: 2.5;
+  list-style-type: none;
+}
+
+.footer-navbar ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.footer-navbar ul li {
+  padding-right: 40px;
+  list-style-type: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media i {
+  padding-right: 40px;
+
+}
